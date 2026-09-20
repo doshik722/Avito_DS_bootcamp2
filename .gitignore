@@ -1,0 +1,30 @@
+venv/
+.idea/
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+*.tmp
+catboost_info/
+_embedding_benchmark.py
+
+# Данные конкурса не публикуем без разрешения правообладателя.
+data/
+
+# В Git оставляем только массивы, нужные для быстрого финального предсказания.
+# Остальные результаты экспериментов и восстановления моделей создаются по мере нужды.
+artifacts/retrieval/*
+!artifacts/retrieval/final_benchmark/
+!artifacts/retrieval/benchmark_mixed_geo_e5/
+artifacts/retrieval/final_benchmark/*
+!artifacts/retrieval/final_benchmark/bm25_*.npy
+!artifacts/retrieval/final_benchmark/char_tfidf_title_*.npy
+!artifacts/retrieval/final_benchmark/word_tfidf_title_*.npy
+!artifacts/retrieval/final_benchmark/catboost_top300_*.npy
+artifacts/retrieval/benchmark_mixed_geo_e5/*
+!artifacts/retrieval/benchmark_mixed_geo_e5/top5000_indices.npy
+!artifacts/retrieval/benchmark_mixed_geo_e5/top5000_scores.npy
+artifacts/models/*.cbm
+!artifacts/models/catboost_extra_all4500_top300.cbm
+
+# Ответы генерируются скриптом и ноутбуком, в репозиторий не включаются.
+answer*.csv

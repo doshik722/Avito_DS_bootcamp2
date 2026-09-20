@@ -1,0 +1,21 @@
+# Анализ данных и чтение Parquet
+numpy==2.5.3
+pandas==3.0.5
+pyarrow==25.0.1
+
+# TF-IDF, BM25 и разреженные матрицы
+scikit-learn==1.9.1
+scipy==1.18.1
+joblib==1.6.0
+catboost==1.2.8
+lightgbm==4.6.0
+
+# Исследовательский ноутбук
+ipython==9.17.1
+ipykernel==7.3.0
+jupyterlab==4.6.3
+
+# Семантический поиск по эмбеддингам
+torch==2.14.0
+sentence-transformers==6.0.1
+faiss-cpu==1.15.1

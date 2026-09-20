@@ -1,0 +1,4 @@
+# Исходная E5 не дообучалась. Большие бинарные файлы хранит Git LFS.
+artifacts/models/multilingual-e5-base/*.safetensors filter=lfs diff=lfs merge=lfs -text
+artifacts/retrieval/benchmark_mixed_geo_e5/top5000_*.npy filter=lfs diff=lfs merge=lfs -text
+artifacts/retrieval/final_benchmark/*.npy filter=lfs diff=lfs merge=lfs -text
