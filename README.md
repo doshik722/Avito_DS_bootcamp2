@@ -1,6 +1,6 @@
 # Кандидатогенерация объявлений услуг Авито
 
-Итоговый Recall@50 на платформе — **0.841578**. Файл ответа: [`answer_catboost_lightgbm_top300.csv`](answer_catboost_lightgbm_top300.csv). Код для его воспроизведения — [`predict.py`](predict.py); ход экспериментов и их выводы сохранены в [`pipeline.ipynb`](pipeline.ipynb).
+Итоговый Recall@50 на платформе — **0.841578**. Ход экспериментов и их выводы сохранены в [`pipeline.ipynb`](pipeline.ipynb).
 
 ## Данные и проверка качества
 
